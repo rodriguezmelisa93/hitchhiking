@@ -6,3 +6,5 @@ const $ = jQuery;
 
 // Aqui el javascript asociado
 $('#test').text('HolaMundo');
+
+console.log('Javascript!', $);
