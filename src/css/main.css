@@ -1,0 +1,19 @@
+header {
+    background: #0077cc;
+    min-height: 100px;
+}
+nav {
+    background: #0077cc;
+}
+
+nav div a:hover {
+    color: #ef546e;
+    text-decoration: none;
+}
+nav div a {
+    color: aliceblue;
+}
+
+nav div a i, header i {
+    font-size: x-large;
+}
