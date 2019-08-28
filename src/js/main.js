@@ -1,4 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'popper.js/dist/popper'
-import 'jquery/dist/jquery.min';
+import jQuery from 'jquery/dist/jquery';
 import 'bootstrap/dist/js/bootstrap.min.js';
+const $ = jQuery;
+
+// Aqui el javascript asociado
+$('#test').text('HolaMundo');
+
+console.log('Javascript!', $);
