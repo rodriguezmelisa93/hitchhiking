@@ -4,6 +4,7 @@
     bottom: 0px;
 }
 
-.c-shadow:hover{
-    filter: contrast(100%) brightness(100%);
+.c-link:hover{
+    filter: contrast(85%) brightness(100%);
+    margin-bottom: 3rem !important;
 }
