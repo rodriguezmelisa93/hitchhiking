@@ -1,0 +1,9 @@
+.c-price{
+    width: 40%;
+    right: 4px;
+    bottom: 0px;
+}
+
+.c-shadow:hover{
+    filter: contrast(100%) brightness(100%);
+}
