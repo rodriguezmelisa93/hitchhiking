@@ -1,0 +1,10 @@
+.c-price{
+    width: 40%;
+    right: 4px;
+    bottom: 0px;
+}
+
+.c-link:hover{
+    filter: contrast(85%) brightness(100%);
+    margin-bottom: 3rem !important;
+}
