@@ -6,5 +6,8 @@
 
 .c-link:hover{
     filter: contrast(85%) brightness(100%);
+}
+
+.c-link{
     margin-bottom: 3rem !important;
 }
