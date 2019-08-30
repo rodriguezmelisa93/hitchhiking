@@ -26,3 +26,7 @@ nav div a i, header i {
 .c-shadow:hover{
     filter: contrast(100%) brightness(100%);
 }
+
+.publicity .card {
+    width: 90%;
+}
