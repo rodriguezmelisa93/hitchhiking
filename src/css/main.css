@@ -23,6 +23,14 @@ nav div a i, header i {
     bottom: 0px;
 }
 
+.c-link:hover{
+    filter: contrast(85%) brightness(100%);
+}
+
+.c-link{
+    margin-bottom: 3rem !important;
+}
+
 .c-shadow:hover{
     filter: contrast(100%) brightness(100%);
 }
