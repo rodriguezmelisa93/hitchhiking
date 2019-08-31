@@ -1,3 +1,22 @@
+header {
+    background: #0077cc;
+    min-height: 100px;
+}
+nav {
+    background: #0077cc;
+}
+
+nav div a:hover {
+    color: #ef546e;
+    text-decoration: none;
+}
+nav div a {
+    color: aliceblue;
+}
+
+nav div a i, header i {
+    font-size: x-large;
+}
 .c-price{
     width: 40%;
     right: 4px;
@@ -10,4 +29,12 @@
 
 .c-link{
     margin-bottom: 3rem !important;
+}
+
+.c-shadow:hover{
+    filter: contrast(100%) brightness(100%);
+}
+
+.publicity .card {
+    width: 90%;
 }
