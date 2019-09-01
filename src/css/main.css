@@ -197,4 +197,11 @@ section .row .col-8 .back-g {
 section .container .rounded > div > span {
     font-size: 12px;
 }
-
+.ask {
+    flex-basis: 25%;
+}
+.ask h6 {
+    background: #ea6422;
+    border-radius: 5px;
+    font-weight: bolder;
+}
