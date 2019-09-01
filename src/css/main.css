@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif;
 }
-img {
+.bordeado {
     border-radius: 20px;
 }
 .wrap{
@@ -52,7 +52,7 @@ img {
 }
 .descri{
     position: absolute;
-    top: 10px;
+    top: 50px;
     left: 10px;
     text-align: center;
     margin: 10px;
@@ -122,9 +122,7 @@ nav div a i, header i {
     filter: contrast(50%) brightness(120%); 
 }
 
-.publicity .card img {
-    height: 145px;
-}
+
 .right-arrow-car {
     position: absolute;
     height: 10%;
@@ -186,7 +184,7 @@ nav div a i, header i {
 .shadow1 img {
     max-height: 140px;
 }
-section .container img {
+.medidor {
     height: 177px;
     width: 19%;
     opacity: 0.8;
