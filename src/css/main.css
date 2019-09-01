@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif;
 }
+
 img {
     border-radius: 20px;
 }
@@ -201,7 +202,6 @@ section .row .col-8 .back-g {
 section .container .rounded > div > span {
     font-size: 12px;
 }
-
 .c-results:hover{
     background: red !important;
 }
