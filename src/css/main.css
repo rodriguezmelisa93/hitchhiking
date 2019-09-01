@@ -106,3 +106,14 @@ nav div a i, header i {
 .shadow1 img {
     max-height: 140px;
 }
+section .container img {
+    height: 177px;
+    width: 19%;
+    opacity: 0.8;
+}
+section .row .col-8 .d-flex {
+    background: #ddbc61;
+}
+section .container .rounded div span {
+    font-size: 12px;
+}
