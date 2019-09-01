@@ -32,9 +32,20 @@ nav div a i, header i {
 }
 
 .c-shadow:hover{
-    filter: contrast(100%) brightness(100%);
+   /* filter: contrast(85%) brightness(100%);
+   /* box-shadow: inset 0px 25px 70px -5px #000000;
+    background-color: #383838;*/
 }
 
+.c-shadow{
+    /*box-shadow: 0px 25px 15px 0px #9b9b9b;
+    /*background-color: #383838;*/
+  /*  filter: contrast(25%) brightness(120%);*/
+    box-shadow:  0px 11px 20px -7px black,0px -11px 20px -7px black;
+    filter: contrast(50%) brightness(120%); 
+}
+
+<<<<<<< HEAD
 .publicity .card img {
     height: 145px;
 }
@@ -96,3 +107,8 @@ nav div a i, header i {
 .shadow1 {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.3)!important;
 }
+=======
+.publicity .card {
+    width: 90%;
+}
+>>>>>>> b700d411f61e6fe01534f616c26882f400c4587e
