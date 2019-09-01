@@ -111,9 +111,9 @@ section .container img {
     width: 19%;
     opacity: 0.8;
 }
-section .row .col-8 .d-flex {
-    background: #ddbc61;
+section .row .col-8 .back-g {
+    background: whitesmoke;
 }
-section .container .rounded div span {
+section .container .rounded > div > span {
     font-size: 12px;
 }
