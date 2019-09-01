@@ -122,9 +122,7 @@ nav div a i, header i {
     filter: contrast(50%) brightness(120%); 
 }
 
-.publicity .card img {
-    height: 145px;
-}
+
 .right-arrow-car {
     position: absolute;
     height: 10%;
