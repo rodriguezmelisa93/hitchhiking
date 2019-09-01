@@ -45,9 +45,6 @@ nav div a i, header i {
     filter: contrast(50%) brightness(120%); 
 }
 
-.publicity .card img {
-    height: 145px;
-}
 .right-arrow-car {
     position: absolute;
     height: 10%;
@@ -105,4 +102,7 @@ nav div a i, header i {
 }
 .shadow1 {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.3)!important;
+}
+.shadow1 img {
+    max-height: 140px;
 }
