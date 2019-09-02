@@ -1,0 +1,243 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+.bordeado {
+    border-radius: 20px;
+}
+.wrap{
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+.card-wrap{
+    margin: 10px;
+}
+.tarjeta{
+    background: skyblue;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    transform-style: preserve-3d; 
+    transition: 2s ease;
+    
+}
+.front , .back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+.card-wrap:hover .tarjeta{
+    transform: rotateY(180deg);
+    }
+
+.title{ 
+    position: absolute;
+    top: 250px;
+    left: 15px;
+    color: black;
+}
+.descri{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    text-align: center;
+    margin: 10px;
+    color: black;
+    
+}
+.flag{
+    
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 261px;
+    left: 125px;
+}
+.img-back{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+header {
+    background: #0077cc;
+    min-height: 100px;
+}
+nav {
+    background: #0077cc;
+}
+
+nav div a:hover {
+    color: #ef546e;
+    text-decoration: none;
+}
+nav div a {
+    color: aliceblue;
+}
+
+nav div a i, header i {
+    font-size: x-large;
+}
+.c-price{
+    width: 40%;
+    right: 4px;
+    bottom: 0px;
+}
+
+.c-link:hover{
+    filter: contrast(85%) brightness(100%);
+}
+
+.c-link{
+    margin-bottom: 3rem !important;
+}
+
+.c-shadow:hover{
+   /* filter: contrast(85%) brightness(100%);
+   /* box-shadow: inset 0px 25px 70px -5px #000000;
+    background-color: #383838;*/
+}
+
+.c-shadow{
+    /*box-shadow: 0px 25px 15px 0px #9b9b9b;
+    /*background-color: #383838;*/
+  /*  filter: contrast(25%) brightness(120%);*/
+    box-shadow:  0px 11px 20px -7px black,0px -11px 20px -7px black;
+    filter: contrast(50%) brightness(120%); 
+}
+
+
+.right-arrow-car {
+    position: absolute;
+    height: 10%;
+    background: #febb02;
+    top: 38%;
+    right: 0;
+    border-radius: 20px;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 5%;
+    color: #ea6422;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+  } 
+
+.right-arrow-car:hover {
+    opacity: 0.9;
+}
+
+.left-arrow-car {
+    position: absolute;
+    height: 10%;
+    background: #febb02;
+    top: 38%;
+    left: 0;
+    border-radius: 20px;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 5%;
+    color: #ea6422;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+} 
+
+.left-arrow-car:hover {
+    opacity: 0.9;
+}
+
+.priceshow {
+    width: 35%;
+    border-radius: 5px;
+    background: rgba(254, 187, 2,0.7);
+}
+.shadow1 {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3)!important;
+}
+
+.shadow1 img {
+    max-height: 140px;
+}
+.medidor {
+    height: 177px;
+    width: 19%;
+    opacity: 0.8;
+}
+section .row .col-8 .back-g {
+    background: whitesmoke;
+}
+section .container .rounded > div > span {
+    font-size: 12px;
+}
+
+.c-results:hover{
+    background: #fff !important;
+}
+
+.c-favorite i{
+    font-size: x-large;
+}
+
+.c-favorite a:hover {
+    color: #eeeeeee8;
+    text-decoration: none;
+}
+
+.c-favorite a {
+    color: black;
+    text-decoration: none;
+}
+
+.c-hotel:hover{
+    background: #afafafe8;
+}
+
+.c-link-d{
+    font-size: x-large;
+}
+.c-link-d:hover {
+    color: #ef546e;
+    text-decoration: none;
+}
+.ask {
+    flex-basis: 25%;
+}
+.ask h6 {
+    background: #ea6422;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.questions a {
+    color: white;
+}
+.questions a:hover {
+    color: #ea6422;
+    text-decoration: none;
+    font-size: 2rem;
+}
