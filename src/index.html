@@ -85,26 +85,32 @@
                             <input type="date" class="form-control" placeholder="Check-In" />
                             <input type="date" class="form-control" placeholder="Check-In" />
                         </div>
-                        </div>
+                    </div>
                     <div class="col-2 px-0">
                         <div class="input-group mb-3">
-                            <div class="input-group-prepend">
+                            <div class="input-group-prepend border">
                                 <span class="input-group-text"><i><i class="fas fa-user-alt"></i></i></span>
-                                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Huespedes">
-                                
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Huespedes
+                                </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Adultos</a>
+                                            <a class="dropdown-item" href="#">Niños</a>
+                                            <a class="dropdown-item" href="#">Habitaciones</a>
+                                        </div>
                             </div>
-                            </div>
-                                        
+                        </div>
+                       </div>
+                            <div class="col-2 px-0">
+                               <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+                           </div>
                     </div>
-                    <div class="col-2 px-0">
-                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+                    <div class="form-group form-check mt-3 pl-0">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1"><a href="#"></a>
+                        <label class="form-check-label" for="exampleCheck1">Viajo por Trabajo</label>
                     </div>
-                </div>
-                <div class="form-group form-check mt-3 pl-0">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1"><a href="#"></a>
-                    <label class="form-check-label" for="exampleCheck1">Viajo por Trabajo</label>
-                </div>          
-                    
+                
+           
             </section>
         </div>
     
