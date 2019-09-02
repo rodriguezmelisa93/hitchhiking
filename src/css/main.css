@@ -203,3 +203,11 @@ section .container .rounded > div > span {
     border-radius: 5px;
     font-weight: bolder;
 }
+.questions a {
+    color: white;
+}
+.questions a:hover {
+    color: #ea6422;
+    text-decoration: none;
+    font-size: 2rem;
+}
