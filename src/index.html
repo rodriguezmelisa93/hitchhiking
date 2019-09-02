@@ -12,10 +12,12 @@
 <body>
         <ul class="nav nav-tabs">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#"> <img class="logo" src="./img/viaje1.jpg" alt=""> </a>
+                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" href="./index.html"> <img class="logoviaje" src="./img/log.svg" alt=""> </a>
                 </li>
                 <li class="nav-item dropdown"> 
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"> Idioma </a>
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">  <button type="button" data-toggle="tooltip" data-placement="top" title="Elige tu idioma">
+                        <img class="iconos" src="./img/idiomacolor.svg" alt=""> 
+                      </button> </a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="#"><img class="idiom" src="./img/argentina.png" alt=""> Español</a>
                     <a class="dropdown-item" href="#"> <img class="idiom" src="./img/italia.png"  alt="" > Italiano</a>
@@ -32,14 +34,16 @@
                 </li>
                   <li class="nav-item dropdown">
                         <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"> $ </a>
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"> <button type="button"  data-toggle="tooltip" data-placement="top" title="Elige tu moneda">
+                                        <img class="iconos" src="./img/monenegra.svg" alt="">
+                                      </button> </a>
 
                   <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#"> $ Peso Argentino</a>
-                        <a class="dropdown-item" href="#"> Dolar</a>
-                        <a class="dropdown-item" href="#"> Euro</a>
-                        <a class="dropdown-item" href="#"> £ Libra</a>
-                        <a class="dropdown-item" href="#"> ¥ Yen</a>
+                        <a class="dropdown-item" href="#"> <img class="idiom" src="./img/peso.svg" alt=""> Peso Argentino</a>
+                        <a class="dropdown-item" href="#"> <img class="idiom" src="./img/dolar.png" alt=""> Dolar</a>
+                        <a class="dropdown-item" href="#"> <img class="idiom" src="./img/euro.svg" alt=""> Euro</a>
+                        <a class="dropdown-item" href="#"> <img class="idiom" src="./img/libra.svg" alt=""> Libra</a>
+                        <a class="dropdown-item" href="#"> <img class="idiom" src="./img/yen.svg" alt=""> Yen</a>
                         <a class="dropdown-item" href="#"> </a>
 
                         <div class="dropdown-divider"></div>
@@ -54,5 +58,10 @@
     
 
     <script type="text/javascript" src="./js/main.js"></script>
+    <script>
+            $(document).ready(function(){
+              $('[data-toggle="tooltip"]').tooltip(); 
+            });
+            </script>
 </body>
 </html>
