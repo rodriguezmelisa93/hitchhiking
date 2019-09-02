@@ -241,7 +241,10 @@ section .container .rounded > div > span {
     text-decoration: none;
     font-size: 2rem;
 }
-.footer {
+footer {
     background: thistle;
-    font-size: 2rem;
+    height: 200px;
+}
+.footer {
+;
 }
