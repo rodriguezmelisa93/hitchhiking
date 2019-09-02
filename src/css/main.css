@@ -198,6 +198,33 @@ section .row .col-8 .back-g {
 section .container .rounded > div > span {
     font-size: 12px;
 }
+
 .c-results:hover{
-    background: red !important;
+    background: #fff !important;
+}
+
+.c-favorite i{
+    font-size: x-large;
+}
+
+.c-favorite a:hover {
+    color: #eeeeeee8;
+    text-decoration: none;
+}
+
+.c-favorite a {
+    color: black;
+    text-decoration: none;
+}
+
+.c-hotel:hover{
+    background: #afafafe8;
+}
+
+.c-link-d{
+    font-size: x-large;
+}
+.c-link-d:hover {
+    color: #ef546e;
+    text-decoration: none;
 }
