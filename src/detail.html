@@ -9,32 +9,170 @@
     <script src="https://kit.fontawesome.com/cf0a234ea1.js"></script>
 </head>
 <body>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="./img/cat.jpeg" class="d-block w-100" alt="Michi" />
+    <main>
+        <header class="">
+            <div class="d-flex justify-content-end">
+                <a href="#"><i class="fas fa-user-circle p-2 d-sm-none" style="color:aliceblue"></i></a>
             </div>
-            <div class="carousel-item">
-                <img src="./img/cat.jpeg" class="d-block w-100" alt="Michi" />
+            <div class="d-none d-sm-block float-right m-1">
+                <button type="button" title="Registrate y conocé todas las ofertas!" class="btn btn-success">Registrate</button>
+                <button type="button" title="Inicia sesión y obten descuentos increíbles!" class="btn btn-primary">Iniciar sesión</button>
             </div>
-            <div class="carousel-item">
-                <img src="./img/cat.jpeg" class="d-block w-100" alt="Michi" />
+        </header>
+
+        <nav class="d-flex justify-content-around justify-content-sm-start p-1">
+            <div class="mx-2">
+                <a href="#" class="d-flex flex-column">
+                    <i class="fas fa-bed rounded-circle p-2 m-auto"></i>
+                    <span class="d-none d-sm-inline">Alojamientos</span>
+                </a>
             </div>
+            <div class="mx-2">
+                <a href="#" class="d-flex flex-column">
+                    <i class="fas fa-plane rounded-circle p-2 m-auto"></i>
+                    <span class="d-none d-sm-inline">Vuelos</span>
+                </a>
+            </div>
+            <div class="mx-2">
+                <a href="#" class="d-flex flex-column">
+                    <i class="fas fa-suitcase rounded-circle p-2 m-auto"></i>
+                    <span class="d-none d-sm-inline">Paquetes</span>
+                </a>
+            </div>
+            <div class="mx-2">
+                <a href="#" class="d-flex flex-column">
+                    <i class="fas fa-car-side rounded-circle p-2 m-auto"></i>
+                    <span class="d-none d-sm-inline">Alquiler</span>
+                </a>    
+            </div>
+            <div class="mx-2">
+                <a href="#" class="d-flex flex-column">
+                    <i class="fas fa-bus-alt rounded-circle p-2 m-auto"></i>
+                    <span class="d-none d-sm-inline">Buses</span>
+                </a>    
+            </div>
+            <div class="mx-2">
+                <a href="#" class="d-flex flex-column">
+                    <i class="fas fa-first-aid rounded-circle p-2 m-auto"></i>
+                    <span class="d-none d-sm-inline">Seguro médico</span>
+                </a>    
+            </div>
+        </nav>
+        <!--Task.21 Martín-->
+        <div>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb rounded-0">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Grecia</a></li>
+                    <li class="breadcrumb-item"><a href="#">Mykonos</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Apart</li>
+                </ol>
+            </nav>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+        
+        <section>
+            <div class="container-fluid m-auto row">
+                <div class="col-xs-12 col-md-4">
+                    <!-- Buscador Comentario Mapa-->
+                </div>
+                <div class="col-xs-12 col-md-8">
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="d-inline"><b>Mykonos Apart</b></h2>
+                                <a href="#" class="c-link-d"><i class="fas fa-thumbs-up"></i></a>
+                            </div>
+                            <div class="col text-right">
+                                <a href="#" class="c-link-d"><i class="far fa-heart"></i></a>
+                                <a href="#" class="c-link-d"><i class="fas fa-share-alt"></i></a>
+                                <a class="btn btn-primary" href="#" role="button">Reservar</a>
+                            </div>                                    
+                        </div>
+                        
+                        <p><small>mykonos ag stefanos, Agios Stefanos, 84600, Grecia</small>-Ubicación ideal. Mostrar mapa</p>
+                        <div id="carouselExampleIndicators" class="carousel slide mb-3" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <img src="./img/apart1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                <img src="./img/apart2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                <img src="./img/apart3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/apart4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/apart5.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="row ">
+                            <div class="col-8">
+                                <!-- Detalle del alojamiento-->
+                                
+                                <p>El Mykonos Apart se encuentra frente a la playa de Agios Stefanos y dispone de un jardín y una terraza. Cuenta con una piscina al aire libre de temporada, recepción 24 horas y WiFi gratuita.</br>
+                                </br>
+                                    Todas las habitaciones están equipadas con aire acondicionado, TV de pantalla plana vía satélite, nevera, hervidor de agua, ducha, secador de pelo, armario y baño privado con artículos de aseo gratuitos.</br>
+                                </br>
+                                    Además, el Mykonos Apart sirve un desayuno continental y buffet todas las mañanas.</br>                                    
+                                </br> 
+                                    La ciudad de Mykonos está a 3,5 km. El aeropuerto más cercano es el de Mykonos, situado a 6 km del Nimbus Mykonos. Se ofrece un servicio de enlace con el aeropuerto de pago.</br>
+                                </br>
+                                    A las parejas les encanta la ubicación — Le han puesto un <b>9,1</b> para viajes de dos personas.</p>
+                            </div>
+                            <div class="col-4">
+                                <!-- Facilities-->
+                            </div>
+                        </div>
+                    <!-- Disponibilidad-->
+                    <!--task 27 Martín-->
+                    <div class="questions bg-info text-white">
+                        <h3 class="text-center pt-2"><a class="#" href="#">Preguntas frecuentes</a></h3>
+                        <div class="d-flex flex-column flex-md-row">
+                            <div class="ask p-1 border">
+                                <h6 class="text-center">¿Puedo cancelar o modificar una reserva de hotel?</h6>
+                                <p class="pl-2">Sí, sí puedes. Pero ten en cuenta que dicha anulación puede conllevar unos gastos de cancelación.</p>
+                            </div>
+                            <div class="ask p-1 border d-none d-md-block">
+                                <h6 class="text-center">¿Qué gastos puede generar una cancelación o modificación de reserva?</h6>
+                                <p class="pl-2">Estos gastos de cancelación son variables según el destino, el proveedor, la tarifa reservada y las fechas de antelación a la anulación.</p>
+                            </div>
+                            <div class="ask p-1 border d-none d-md-block">
+                                <h6 class="text-center">¿Cómo sé si mi reserva de hotel se ha confirmado con éxito?</h6>
+                                <p class="pl-2">Una vez finalizado el proceso de compra, aparecerá en tu pantalla un número de localizador y recibirás un e-mail con el estado de la reserva. </p>
+                            </div>
+                            <div class="ask p-1 border d-none d-md-block">
+                                <h6 class="text-center">¿Si ocurre algún error en el proceso de reserva se confirma igualmente la reserva de hotel?</h6>
+                                <p class="pl-2">Si al final del proceso de reserva te apareciera un mensaje de error debes ponerte en contacto con nosotros a través del apartado de CONTACTO.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+
+        </footer>
+    </main>
+
     <script type="text/javascript" src="./js/detail.js"></script>
 </body>
 </html>
