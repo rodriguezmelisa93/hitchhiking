@@ -243,10 +243,16 @@ section .container .rounded > div > span {
 }
 footer {
     background: thistle;
-    height: 200px;
+    font-size: 12px;
+}
+footer > div > div > p > a { 
+    text-decoration: none;
 }
 .footer {
     font-size: 2rem;
+}
+.footer div a {
+    color: #212529;
 }
 .idiom{
     width: 20px;
