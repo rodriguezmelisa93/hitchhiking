@@ -241,14 +241,13 @@ section .container .rounded > div > span {
     text-decoration: none;
     font-size: 2rem;
 }
-<<<<<<< HEAD
 footer {
     background: thistle;
     height: 200px;
 }
 .footer {
     font-size: 2rem;
-=======
+}
 .idiom{
     width: 20px;
     height: 15px;
@@ -261,5 +260,4 @@ footer {
 .iconos{
     width: 30px;
     height: 30px;;
->>>>>>> d0035c7672b5bfeace4087899dc3178de7c93d0e
 }
