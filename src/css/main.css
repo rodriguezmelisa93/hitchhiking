@@ -75,8 +75,12 @@
     left: 100px;
 }
 
-.img-back{
+.img-flag{
+    width: 25px;
+    height: 20px;
+    
 }
+
 
 header {
     background: #0077cc;
