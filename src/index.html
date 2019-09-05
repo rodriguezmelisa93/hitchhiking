@@ -11,15 +11,14 @@
 </head>
 
 <body>
-    <main>
-        <header class="">
-        <ul class="nav nav-tabs">
+        <header>
+            <ul class="nav nav-tabs d-flex justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" href="./index.html"> <img class="logoviaje" src="./img/log.svg" alt=""> </a>
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" href="./index.html"> <img class="logoviaje" src="./img/aeroplano.png" alt=""> </a>
                 </li>
                 <li class="nav-item dropdown"> 
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">  <button type="button" data-toggle="tooltip" data-placement="top" title="Elige tu idioma">
-                        <img class="iconos" src="./img/idiomacolor.svg" alt=""> 
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">  <button class="iconic" type="button" data-toggle="tooltip" data-placement="top" title="Elige tu idioma">
+                        <img class="iconos" src="./img/argentina1.png" alt=""> 
                         </button> </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#"><img class="idiom" src="./img/argentina1.png" alt=""> Español</a>
@@ -36,8 +35,8 @@
                 </li>
                 <li class="nav-item dropdown">
                     <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"> <button type="button"  data-toggle="tooltip" data-placement="top" title="Elige tu moneda">
-                                    <img class="iconos" src="./img/monenegra.svg" alt="">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"> <button class="iconic" type="button"  data-toggle="tooltip" data-placement="top" title="Elige tu moneda">
+                                    <img class="iconos" src="./img/ahorrar-dinero.png" alt="">
                                     </button> </a>
 
                         <div class="dropdown-menu">
@@ -63,6 +62,8 @@
                 <button type="button" title="Inicia sesión y obten descuentos increíbles!" class="btn btn-primary">Iniciar sesión</button>
             </div>
         </header>
+
+     <main>
         
         <nav class="d-flex justify-content-around justify-content-sm-start p-1">
             <div class="mx-2">
@@ -140,17 +141,15 @@
                                         </div>
                             </div>
                         </div>
-                       </div>
-                            <div class="col-2 px-0">
-                               <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
-                           </div>
                     </div>
-                    <div class="form-group form-check mt-3 pl-0">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1"><a href="#"></a>
-                        <label class="form-check-label" for="exampleCheck1">Viajo por Trabajo</label>
+                    <div class="col-2 px-0">
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
                     </div>
-                
-           
+                </div>
+                <div class="form-group form-check mt-3 pl-0">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1"><a href="#"></a>
+                    <label class="form-check-label" for="exampleCheck1">Viajo por Trabajo</label>
+                </div>           
             </section>
         </div>
     
@@ -204,7 +203,7 @@
                 </div>
             </div>
 
-        <!--publicity2 - mel -->       
+            <!--publicity2 - mel -->       
             <div class="wrap">
                 <div class="card-wrap">
                     <div class="tarjeta">                
@@ -243,19 +242,19 @@
                 <div class="col-3">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZoQXkLJIRLGdpwm7ev00t14RAX6S2We5lkXUJRuy9H62eOgE" alt="" class="rounded-circle img-fluid">
                 </div>
-                    <div class="col-9">
-                        <h4>Suscríbete para ver las ofertas secretas.</h4>
-                        <p>Sucríbete y verás como bajan los precios!</p>
-                        <!-- <input type="email" name="" id="" placeholder="Introduce tu email"> <button>Suscribirse</button> -->
-                        <div class="row">
-                            <div class="col-8">
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Introduce tu email">
-                            </div>
-                            <div class="col-4">
-                                <button type="button" class="btn btn-outline-primary">¡Quiero Suscribirme!</button>
-                                <a href="#"></a>
-                            </div>
+                <div class="col-9">
+                    <h4>Suscríbete para ver las ofertas secretas.</h4>
+                    <p>Sucríbete y verás como bajan los precios!</p>
+                    <!-- <input type="email" name="" id="" placeholder="Introduce tu email"> <button>Suscribirse</button> -->
+                    <div class="row">
+                        <div class="col-8">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Introduce tu email">
                         </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-outline-primary">¡Quiero Suscribirme!</button>
+                            <a href="#"></a>
+                        </div>
+                    </div>
                 </div>  
             </div>
         </div>
@@ -609,6 +608,7 @@
                 </div>
             </div>
         </div>
+    </main>
     
         <!-- task 1-Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -631,7 +631,7 @@
             </div>
         </div>  
             
-        <footer class="">
+        <footer>
             
             <div class="container d-flex justify-content-around">
                 <div class="d-flex flex-column pt-3">
@@ -669,7 +669,7 @@
             <div class="container text-dark p-1 text-center">Copyright © 1996–2019 Booking.com™. Todos los derechos reservados.</div>
         </footer>
             
-    </main>
+    
     <script type="text/javascript" src="./js/home.js"></script>
 </body>
 </html>
