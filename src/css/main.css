@@ -75,12 +75,9 @@
     left: 100px;
 }
 
-.img-back{
-}
-
 header {
     background: #0077cc;
-    min-height: 150px;
+    min-height: 100px;
 }
 
 nav {
@@ -114,16 +111,7 @@ nav div a i, header i {
     margin-bottom: 3rem !important;
 }
 
-.c-shadow:hover{
-   /* filter: contrast(85%) brightness(100%);
-   /* box-shadow: inset 0px 25px 70px -5px #000000;
-    background-color: #383838;*/
-}
-
 .c-shadow{
-    /*box-shadow: 0px 25px 15px 0px #9b9b9b;
-    /*background-color: #383838;*/
-  /*  filter: contrast(25%) brightness(120%);*/
     box-shadow:  0px 11px 20px -7px black,0px -11px 20px -7px black;
     filter: contrast(50%) brightness(120%); 
 }

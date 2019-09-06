@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <ul class="nav nav-tabs d-flex justify-content-end">
+        <ul class="nav d-flex justify-content-end">
             <li class="nav-item dropdown"> 
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">  <button class="iconic" type="button" data-toggle="tooltip" data-placement="top" title="Elige tu idioma">
                     <img class="iconos" src="./img/argentina1.png" alt=""> 
@@ -28,41 +28,37 @@
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Elige tu idioma</a>
                 </div>
-
             </li>
             <li class="nav-item dropdown">
-                <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"> <button class="iconic" type="button"  data-toggle="tooltip" data-placement="top" title="Elige tu moneda">
-                                <img class="iconos" src="./img/ahorrar-dinero.png" alt="">
-                                </button> </a>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"> <button class="iconic" type="button"  data-toggle="tooltip" data-placement="top" title="Elige tu moneda">
+                            <img class="iconos" src="./img/ahorrar-dinero.png" alt="">
+                            </button> </a>
 
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#"> <img class="idiom" src="./img/peso.svg" alt=""> Peso Argentino</a>
-                        <a class="dropdown-item" href="#"> <img class="idiom" src="./img/dolar.png" alt=""> Dolar</a>
-                        <a class="dropdown-item" href="#"> <img class="idiom" src="./img/euro.svg" alt=""> Euro</a>
-                        <a class="dropdown-item" href="#"> <img class="idiom" src="./img/libra.svg" alt=""> Libra</a>
-                        <a class="dropdown-item" href="#"> <img class="idiom" src="./img/yen.svg" alt=""> Yen</a>
-                        <a class="dropdown-item" href="#"> </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"> <img class="idiom" src="./img/peso.svg" alt=""> Peso Argentino</a>
+                    <a class="dropdown-item" href="#"> <img class="idiom" src="./img/dolar.png" alt=""> Dolar</a>
+                    <a class="dropdown-item" href="#"> <img class="idiom" src="./img/euro.svg" alt=""> Euro</a>
+                    <a class="dropdown-item" href="#"> <img class="idiom" src="./img/libra.svg" alt=""> Libra</a>
+                    <a class="dropdown-item" href="#"> <img class="idiom" src="./img/yen.svg" alt=""> Yen</a>
 
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Elige tu moneda</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="d-flex justify-content-end">
-                        <a href="#"><i class="fas fa-user-circle p-2 d-sm-none" style="color:aliceblue"></i></a>
-                    </div>
-                    <div class="d-none d-sm-block float-right m-1">
-                        <button type="button" title="Registrate y conocé todas las ofertas!" class="btn btn-success">Registrate</button>
-                        <button type="button" title="Inicia sesión y obten descuentos increíbles!" class="btn btn-primary">Iniciar sesión</button>
-                    </div>
-                </li>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Elige tu moneda</a>
+                </div>
             </li>
-
+            <li>
+                <div class="d-flex justify-content-end">
+                    <a href="#"><i class="fas fa-user-circle p-2 d-sm-none" style="color:aliceblue"></i></a>
+                </div>
+                <div class="d-none d-sm-block float-right m-1">
+                    <button type="button" title="Registrate y conocé todas las ofertas!" class="btn btn-success">Registrate</button>
+                    <button type="button" title="Inicia sesión y obten descuentos increíbles!" class="btn btn-primary">Iniciar sesión</button>
+                </div>
+            </li>
+       
         </ul>
     </header>
 
-     <main>
+    <main>
         
         <nav class="d-flex justify-content-around justify-content-sm-start p-1">
             <div class="mx-2">
@@ -237,21 +233,20 @@
         <!--Task7-->
         
         <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZoQXkLJIRLGdpwm7ev00t14RAX6S2We5lkXUJRuy9H62eOgE" alt="" class="rounded-circle img-fluid">
+            <div class="row shadow m-4 p-2">
+                <div class="col-md-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZoQXkLJIRLGdpwm7ev00t14RAX6S2We5lkXUJRuy9H62eOgE" alt="" class="rounded-circle img-fluid d-none d-sm-block">
                 </div>
-                <div class="col-9">
+                <div class="col-md-9">
                     <h4>Suscríbete para ver las ofertas secretas.</h4>
                     <p>Sucríbete y verás como bajan los precios!</p>
                     <!-- <input type="email" name="" id="" placeholder="Introduce tu email"> <button>Suscribirse</button> -->
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-md-8">
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Introduce tu email">
                         </div>
-                        <div class="col-4">
-                            <button type="button" class="btn btn-outline-primary">¡Quiero Suscribirme!</button>
-                            <a href="#"></a>
+                        <div class="col-md-4 text-center">
+                            <button type="button" class="btn btn-outline-primary mt-2 m-md-auto">¡Quiero Suscribirme!</button>
                         </div>
                     </div>
                 </div>  
@@ -277,7 +272,7 @@
                                     <p class="card-text">30.054 aparthoteles</p>
                                 </div>
                             </div>
-                            <div class="card border-0">
+                            <div class="card border-0 d-none d-md-block">
                                 <a href="./results.html">
                                     <img src="./img/casa.jpg" class="card-img-top" alt="...">
                                 </a>
@@ -286,7 +281,7 @@
                                     <p class="card-text">5.054 casas</p>
                                 </div>
                             </div>
-                            <div class="card border-0">
+                            <div class="card border-0 d-none d-md-block">
                                 <a href="./results.html">   
                                     <img src="./img/departamento.jpg" class="card-img-top" alt="...">
                                 </a>
@@ -295,7 +290,7 @@
                                     <p class="card-text">315.645 departamentos</p>
                                 </div>
                             </div>
-                            <div class="card border-0">
+                            <div class="card border-0 d-none d-md-block">
                                 <a href="./results.html">
                                     <img src="./img/villa.jpg" class="card-img-top" alt="...">
                                 </a>
@@ -304,7 +299,7 @@
                                     <p class="card-text"> 12.990 villas</p>
                                 </div>
                             </div>
-                            <div class="card border-0">
+                            <div class="card border-0 d-none d-md-block">
                                 <a href="./results.html">
                                 <img src="./img/interior.jpg" class="card-img-top" alt="...">
                                 </a>
@@ -326,7 +321,7 @@
                                     <p class="card-text">10.945 cabañas</p>
                                 </div>
                             </div>
-                            <div class="card border-0">
+                            <div class="card border-0 d-none d-md-block">
                                 <a href="./results.html">
                                     <img src="./img/habitaciones.jpg" class="card-img-top" alt="...">
                                 </a>
@@ -335,7 +330,7 @@
                                     <p class="card-text">5.452 habitaciones</p>
                                 </div>
                             </div>
-                            <div class="card border-0">
+                            <div class="card border-0 d-none d-md-block">
                                 <a href="./results.html">
                                     <img src="./img/rural.jpg" class="card-img-top" alt="...">
                                 </a>
@@ -344,7 +339,7 @@
                                     <p class="card-text">3.782 casa rural</p>
                                 </div>
                             </div>
-                            <div class="card border-0">
+                            <div class="card border-0 d-none d-md-block">
                                 <a href="./results.html">
                                 <img src="./img/camping.jpg" class="card-img-top" alt="...">
                                 </a>
@@ -353,7 +348,7 @@
                                     <p class="card-text">67.452 camping</p>
                                 </div>
                             </div>
-                            <div class="card border-0">
+                            <div class="card border-0 d-none d-md-block">
                                 <a href="./results.html">
                                     <img src="./img/casa-mar.jpg" class="card-img-top" alt="...">
                                 </a>
@@ -365,11 +360,11 @@
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev c-shadow" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="left-arrow-car" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next c-shadow" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="right-arrow-car" href="#carouselExampleIndicators" role="button" data-slide="next">
                     <span class="carousel-control-next-icon " aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -761,24 +756,17 @@
     </main>
    
     
-        <!-- task 1-Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Registrate aqui!</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eum facere ipsum aperiam, saepe labore eos quod alias harum voluptate, deleniti accusantium autem in delectus hic, dolor aliquid voluptatibus dolorum.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-primary">Guardar cambios</button>
-                    </div>
+    <!-- task 1-Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Registrate aqui!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
+<<<<<<< HEAD
             </div>
         </div>
         <section class="subscription-bottom">  
@@ -816,34 +804,56 @@
                     <p><a class="text-dark" href="#">Trabajá en hitch-hiking</a></p>
                     <p><a class="text-dark" href="#">Relación con inversores</a></p>
                     <p><a class="text-dark" href="#">Sobre Hitch-hiking</a></p>
+=======
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eum facere ipsum aperiam, saepe labore eos quod alias harum voluptate, deleniti accusantium autem in delectus hic, dolor aliquid voluptatibus dolorum.</p>
+>>>>>>> 40b8d2ad4d75a8424a2864e2ad82576661e4c90f
                 </div>
-                <div class="d-none d-md-flex flex-column pt-3">
-                    <h6 class="font-weight-bold pb-2">About us</h6>
-                    <p><a class="text-dark" href="#">Nuestro teléfono</a></p>
-                    <p><a class="text-dark" href="#">Trabajá en hitch-hiking</a></p>
-                    <p><a class="text-dark" href="#">Relación con inversores</a></p>
-                    <p><a class="text-dark" href="#">Sobre Hitch-hiking</a></p>
-                </div>
-                <div class="d-none d-md-flex flex-column pt-3">
-                    <h6 class="font-weight-bold pb-2">Related webs</h6>
-                    <p><a class="text-muted" href="#">despegar</a></p>
-                    <p><a class="text-muted" href="#">booking</a></p>
-                    <p><a class="text-muted" href="#">almundo</a></p>
-                    <p><a class="text-muted" href="#">airbnb</a></p>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Guardar cambios</button>
                 </div>
             </div>
-            <div class=" container border-top border-bottom border-secondary flex-column">
-                <div class="pt-2"><h5 class="text-center">Seguínos en</h5></div>
-                <div class="footer d-flex justify-content-center">   
-                    <div class="mx-3 mb-1"><a href="https://twitter.com/?lang=ES" target="_blank"><i class="fab fa-twitter-square"></i></a></div>
-                    <div class="mx-3 mb-1"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></a></i></div>
-                    <div class="mx-3 mb-1"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
-                    <div class="mx-3 mb-1"><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></a></i></div>
-                    <div class="mx-3 mb-1"><a href="https://github.com" target="_blank"><i class="fab fa-github-square"></i></a></div>
-                </div>
+        </div>
+    </div>  
+        
+    <footer>
+        
+        <div class="container d-flex justify-content-around">
+            <div class="d-flex flex-column pt-3">
+                <h6 class="font-weight-bold pb-2">Contact</h6>
+                <p><a class="text-dark" href="#">Nuestro teléfono</a></p>
+                <p><a class="text-dark" href="#">Trabajá en hitch-hiking</a></p>
+                <p><a class="text-dark" href="#">Relación con inversores</a></p>
+                <p><a class="text-dark" href="#">Sobre Hitch-hiking</a></p>
             </div>
-            <div class="container text-dark p-1 text-center">Copyright © 1996–2019 Hitch-hiking.com™. Todos los derechos reservados.</div>
-        </footer>
+            <div class="d-none d-md-flex flex-column pt-3">
+                <h6 class="font-weight-bold pb-2">About us</h6>
+                <p><a class="text-dark" href="#">Nuestro teléfono</a></p>
+                <p><a class="text-dark" href="#">Trabajá en hitch-hiking</a></p>
+                <p><a class="text-dark" href="#">Relación con inversores</a></p>
+                <p><a class="text-dark" href="#">Sobre Hitch-hiking</a></p>
+            </div>
+            <div class="d-none d-md-flex flex-column pt-3">
+                <h6 class="font-weight-bold pb-2">Related webs</h6>
+                <p><a class="text-muted" href="#">despegar</a></p>
+                <p><a class="text-muted" href="#">booking</a></p>
+                <p><a class="text-muted" href="#">almundo</a></p>
+                <p><a class="text-muted" href="#">airbnb</a></p>
+            </div>
+        </div>
+        <div class=" container border-top border-bottom border-secondary flex-column">
+            <div class="pt-2"><h5 class="text-center">Seguínos en</h5></div>
+            <div class="footer d-flex justify-content-center">   
+                <div class="mx-3 mb-1"><a href="https://twitter.com/?lang=ES" target="_blank"><i class="fab fa-twitter-square"></i></a></div>
+                <div class="mx-3 mb-1"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></a></i></div>
+                <div class="mx-3 mb-1"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+                <div class="mx-3 mb-1"><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></a></i></div>
+                <div class="mx-3 mb-1"><a href="https://github.com" target="_blank"><i class="fab fa-github-square"></i></a></div>
+            </div>
+        </div>
+        <div class="container text-dark p-1 text-center">Copyright © 1996–2019 Hitch-hiking.com™. Todos los derechos reservados.</div>
+    </footer>
             
     
     <script type="text/javascript" src="./js/home.js"></script>
