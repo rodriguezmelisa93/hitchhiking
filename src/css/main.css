@@ -296,6 +296,7 @@ footer > div > div > p > a {
 .find-new-destinations ul {
     list-style: none;
 }
-.subscription-bottom {
-    width: 100%;
+.subscription-bottom  {
+    background-color: cornflowerblue;
+    
 }
