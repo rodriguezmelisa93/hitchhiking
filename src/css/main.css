@@ -86,10 +86,9 @@
     
 }
 
-
 header {
     background: #0077cc;
-    min-height: 150px;
+    min-height: 100px;
 }
 
 nav {
@@ -123,16 +122,7 @@ nav div a i, header i {
     margin-bottom: 3rem !important;
 }
 
-.c-shadow:hover{
-   /* filter: contrast(85%) brightness(100%);
-   /* box-shadow: inset 0px 25px 70px -5px #000000;
-    background-color: #383838;*/
-}
-
 .c-shadow{
-    /*box-shadow: 0px 25px 15px 0px #9b9b9b;
-    /*background-color: #383838;*/
-  /*  filter: contrast(25%) brightness(120%);*/
     box-shadow:  0px 11px 20px -7px black,0px -11px 20px -7px black;
     filter: contrast(50%) brightness(120%); 
 }
@@ -140,7 +130,7 @@ nav div a i, header i {
 .right-arrow-car {
     position: absolute;
     height: 10%;
-    background: #febb02;
+    background: #a7a5a2;
     top: 38%;
     right: 0;
     border-radius: 20px;
@@ -165,7 +155,7 @@ nav div a i, header i {
 .left-arrow-car {
     position: absolute;
     height: 10%;
-    background: #febb02;
+    background: #a7a5a2;
     top: 38%;
     left: 0;
     border-radius: 20px;
@@ -301,4 +291,11 @@ footer > div > div > p > a {
 .iconic{
     background: transparent;
     border: none;
+}
+.find-new-destinations ul {
+    list-style: none;
+}
+.subscription-bottom  {
+    background-color: cornflowerblue;
+    
 }
