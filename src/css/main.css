@@ -9,20 +9,15 @@
     border-radius: 20px;
 }
 
-.wrap{
+.wrap {
     width: 100%;
     margin: 50px auto;
     display: flex;
     justify-content: center;
 }
 
-.card-wrap{
-    margin: 10px;
-}
-
-.tarjeta{
-    width: 600px;
-    height: 300px;
+.tarjeta {
+    min-height: 300px;
     border-radius: 20px;
     position: relative;
     transform-style: preserve-3d; 
@@ -47,7 +42,7 @@
 
 .title{ 
     position: absolute;
-    top: 250px;
+    bottom: 40px;
     left: 15px;
     color: white;
 }
@@ -66,13 +61,22 @@
     font-size: 14px;
 }
 
-.flag{    
+.flag {
+    display: inline-block;
     width: 30px;
-    height: 20px;
+    height: 25px;
     border-radius: 5px;
-    position: absolute;
-    top: 257px;
-    left: 100px;
+    background: url(../img/mexi.png);
+    background-size: cover;
+}
+
+.flag1 {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    border-radius: 5px;
+    background: url(../img/au.png);
+    background-size: cover;
 }
 
 .img-flag{
@@ -290,10 +294,15 @@ footer > div > div > p > a {
 
 .iconos{
     width: 30px;
-    height: 25x;
+    height: 25px;
 
 }
 .iconic{
     background: transparent;
     border: none;
+}
+
+@media (min-width: 768px){
+
+
 }
