@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="bg_header">
         <ul class="nav nav-tabs d-flex justify-content-end border-bottom-0">  
                 <a href="index.html"><img class="logoviaje ulogo" src="./img/aeroplano.png" alt=""></a>            
             <li class="nav-item dropdown "> 
@@ -57,51 +57,49 @@
                     </div>
              </li>           
         </ul>
+        <nav class="d-flex justify-content-around justify-content-sm-start p-1">
+                <div class="mx-2">
+                    <a href="#" class="d-flex flex-column">
+                        <i class="fas fa-bed rounded-circle p-2 m-auto"></i>
+                        <span class="d-none d-sm-inline">Alojamientos</span>
+                    </a>
+                </div>
+                <div class="mx-2">
+                    <a href="#" class="d-flex flex-column">
+                        <i class="fas fa-plane rounded-circle p-2 m-auto"></i>
+                        <span class="d-none d-sm-inline">Vuelos</span>
+                    </a>
+                </div>
+                <div class="mx-2">
+                    <a href="#" class="d-flex flex-column">
+                        <i class="fas fa-suitcase rounded-circle p-2 m-auto"></i>
+                        <span class="d-none d-sm-inline">Paquetes</span>
+                    </a>
+                </div>
+                <div class="mx-2">
+                    <a href="#" class="d-flex flex-column">
+                        <i class="fas fa-car-side rounded-circle p-2 m-auto"></i>
+                        <span class="d-none d-sm-inline">Alquiler</span>
+                    </a>    
+                </div>
+                <div class="mx-2">
+                    <a href="#" class="d-flex flex-column">
+                        <i class="fas fa-bus-alt rounded-circle p-2 m-auto"></i>
+                        <span class="d-none d-sm-inline">Buses</span>
+                    </a>    
+                </div>
+                <div class="mx-2">
+                    <a href="#" class="d-flex flex-column">
+                        <i class="fas fa-first-aid rounded-circle p-2 m-auto"></i>
+                        <span class="d-none d-sm-inline">Seguro médico</span>
+                    </a>    
+                </div>
+            </nav>
     </header>
 
 
- <main>
-        <nav class="d-flex justify-content-around justify-content-sm-start p-1">
-            <div class="mx-2">
-                <a href="#" class="d-flex flex-column">
-                    <i class="fas fa-bed rounded-circle p-2 m-auto"></i>
-                    <span class="d-none d-sm-inline">Alojamientos</span>
-                </a>
-            </div>
-            <div class="mx-2">
-                <a href="#" class="d-flex flex-column">
-                    <i class="fas fa-plane rounded-circle p-2 m-auto"></i>
-                    <span class="d-none d-sm-inline">Vuelos</span>
-                </a>
-            </div>
-            <div class="mx-2">
-                <a href="#" class="d-flex flex-column">
-                    <i class="fas fa-suitcase rounded-circle p-2 m-auto"></i>
-                    <span class="d-none d-sm-inline">Paquetes</span>
-                </a>
-            </div>
-            <div class="mx-2">
-                <a href="#" class="d-flex flex-column">
-                    <i class="fas fa-car-side rounded-circle p-2 m-auto"></i>
-                    <span class="d-none d-sm-inline">Alquiler</span>
-                </a>    
-            </div>
-            <div class="mx-2">
-                <a href="#" class="d-flex flex-column">
-                    <i class="fas fa-bus-alt rounded-circle p-2 m-auto"></i>
-                    <span class="d-none d-sm-inline">Buses</span>
-                </a>    
-            </div>
-            <div class="mx-2">
-                <a href="#" class="d-flex flex-column">
-                    <i class="fas fa-first-aid rounded-circle p-2 m-auto"></i>
-                    <span class="d-none d-sm-inline">Seguro médico</span>
-                </a>    
-            </div>
-        </nav>
-        
+ <main>        
         <div class="container p-xs-0 p-md-3">
-
             <section id="search" class="bg-light mt-4 d-flex flex-column p-3 rounded border border-secondary" >
                 <h3 class="m-auto m-md-0">Busca tu próximo viaje</h3>
                 <p class="small m-auto m-md-0 pb-2">Lo que quieras, vayas donde vayas</p>
@@ -137,21 +135,17 @@
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-                            <div class="col-2 px-0">
-                               <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
-                           </div>
+                    <div class="col-2 px-0">
+                        <button class="btn btn-search my-2 my-sm-0 ml-md-3 px-4" type="submit">Buscar</button>
+                    </div>
                            
                 </div>
-                    <div class="form-group form-check mt-3 pl-0">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1"><a href="#"></a>
-                        <label class="form-check-label" for="exampleCheck1">Viajo por Trabajo</label>
-
-                     </div>
-         
-         </section>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1"><a href="#"></a>
+                    <label class="form-check-label" for="exampleCheck1">Viajo por Trabajo</label>
+                </div>                   
+            </section>
         </div> 
     
     

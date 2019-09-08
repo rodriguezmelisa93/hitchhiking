@@ -92,16 +92,12 @@
 }
 
 header {
-    background: #0077cc;
     min-height: 70px;
-}
-
-nav {
-    background: #0077cc;
+    
 }
 
 nav div a:hover {
-    color: #ef546e;
+    color: #ff5907;
     text-decoration: none;
 }
 
@@ -135,7 +131,7 @@ nav div a i, header i {
 .right-arrow-car {
     position: absolute;
     height: 10%;
-    background: #a7a5a2;
+    background: #bdbdbd;
     top: 38%;
     right: 0;
     border-radius: 20px;
@@ -160,7 +156,7 @@ nav div a i, header i {
 .left-arrow-car {
     position: absolute;
     height: 10%;
-    background: #a7a5a2;
+    background: #bdbdbd;
     top: 38%;
     left: 0;
     border-radius: 20px;
@@ -428,3 +424,16 @@ footer > div > div > p > a {
      }
 
 
+#search{
+    background: #bdbdbd !important;
+    color: #12305a;
+}
+
+.btn-search {
+    color: #fff !important;
+    background: #ff5907 !important;
+}
+
+.bg_header{
+    background: #12305a !important;
+}
