@@ -5,6 +5,11 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
+.ulogo{
+    position: absolute;
+    top: 2px;
+    left: 10px;
+}
 .bordeado {
     border-radius: 20px;
 }
@@ -16,13 +21,8 @@
     justify-content: center;
 }
 
-.card-wrap{
-    margin: 10px;
-}
-
 .tarjeta{
-    width: 600px;
-    height: 300px;
+    min-height: 300px;
     border-radius: 20px;
     position: relative;
     transform-style: preserve-3d; 
@@ -47,7 +47,7 @@
 
 .title{ 
     position: absolute;
-    top: 250px;
+    bottom: 40px;
     left: 15px;
     color: white;
 }
@@ -66,18 +66,34 @@
     font-size: 14px;
 }
 
-.flag{    
+.flag{   
+    display: inline-block;
     width: 30px;
-    height: 20px;
+    height: 25px;
     border-radius: 5px;
-    position: absolute;
-    top: 257px;
-    left: 100px;
+    background: url(../img/mexi.png);
+    background-size: cover; 
+   
+}
+
+.flag1 {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    border-radius: 5px;
+    background: url(../img/au.png);
+    background-size: cover;
+}
+
+.img-flag{
+    width: 25px;
+    height: 20px;
+    
 }
 
 header {
     background: #0077cc;
-    min-height: 100px;
+    min-height: 70px;
 }
 
 nav {
@@ -288,3 +304,128 @@ footer > div > div > p > a {
     background-color: cornflowerblue;
     
 }
+
+@media (min-width: 320px) and (max-width: 420px){
+    .descri{   
+        top: 20px;
+        left: 0;
+        padding: 3px;
+        font-size: 10px;
+        line-height: 15px;    
+    }
+    .title{
+        bottom: 80px;
+        left: 7px;
+        color: white;
+        font-size: 25px;
+    }
+    .tarjeta{
+        min-height: 200px;
+    }
+
+
+
+}
+@media (min-width: 320px) and (max-width: 420px){
+    .descri{   
+        top: 15px;
+        left: 0;
+        padding: 3px;
+        font-size: 10px;
+        line-height: 10px;    
+    }
+    .title{
+        bottom: 50px;
+        left: 7px;
+        color: white;
+        font-size: 25px;
+    }
+    .tarjeta{
+        min-height: 200px;
+    }
+
+}
+
+@media (min-width: 420px) and (max-width: 576px){
+    .descri{   
+        top: 20px;
+        left: 0;
+        padding: 3px;
+        font-size: 10px;
+        line-height: 15px;    
+    }
+    .title{
+        bottom: 70px;
+        left: 7px;
+        color: white;
+        font-size: 25px;
+    }
+    .tarjeta{
+        min-height: 270px;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+.descri{   
+    top: 16px;
+    left: 0;
+    padding: 3px;
+    font-size: 7px;
+    line-height: 10px;    
+}
+.title{
+    bottom: 25px;
+    left: 7px;
+    color: white;
+    font-size: 25px;
+}
+.tarjeta{
+    min-height: 150px;
+}
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+
+    .descri{   
+        top: 18px;
+        left: 0;
+        padding: 3px;
+        font-size: 10px;
+        line-height: 16px;    
+    }
+    .title{
+        bottom: 0px;
+        left: 7px;
+        color: white;
+        font-size: 30px;
+    }
+    .tarjeta{
+        min-height: 170px;
+    }
+ }
+    @media (min-width: 992px) and (max-width:1200px) {
+
+        .descri{   
+            top: 30px;
+            left: 0;
+            padding: 3px;
+            font-size: 10px;
+            line-height: 20px;    
+        }
+        .title{
+            bottom: 25px;
+            left: 7px;
+            color: white;
+            font-size: 30px;
+        }
+        .tarjeta{
+            min-height: 250px;
+        }
+
+     }
+   
+
+
