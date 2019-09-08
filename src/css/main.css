@@ -92,16 +92,11 @@
 }
 
 header {
-    background: #0077cc;
     min-height: 70px;
 }
 
-nav {
-    background: #0077cc;
-}
-
 nav div a:hover {
-    color: #ef546e;
+    color: #ff5907;
     text-decoration: none;
 }
 
@@ -237,7 +232,7 @@ section .container .rounded > div > span {
 }
 
 .c-link-d:hover {
-    color: #ef546e;
+    color: #ff5907;
     text-decoration: none;
 }
 
@@ -246,9 +241,10 @@ section .container .rounded > div > span {
 }
 
 .ask h6 {
-    background: #ea6422;
+    background: #bdbdbd;
     border-radius: 5px;
     font-weight: bolder;
+    color: #12305a;
 }
 
 .questions a {
@@ -262,7 +258,7 @@ section .container .rounded > div > span {
 }
 
 footer {
-    background: thistle;
+    background: rgb(245, 185, 129);
     font-size: 12px;
 }
 
@@ -302,7 +298,35 @@ footer > div > div > p > a {
 }
 .subscription-bottom  {
     background-color: cornflowerblue;
-    
+}
+
+.bg-search{
+    background: #bdbdbd !important;
+    color: #12305a;
+}
+
+.btn-search {
+    color: #fff !important;
+    background: #ff5907 !important;
+}
+
+.bg-header{
+    background: #12305a !important;
+}
+
+.bg-table {
+    background: #bdbdbd!important;
+    color: #12305a !important;
+}
+.bg-table th,
+.bg-table td,
+.bg-table thead th,
+.bg-table tbody + tbody {
+border-color: #fff;
+}
+
+.bg-subscribe{
+    background: #bdbdbd !important;
 }
 
 @media (min-width: 320px) and (max-width: 420px){
@@ -425,7 +449,4 @@ footer > div > div > p > a {
             min-height: 250px;
         }
 
-     }
-   
-
-
+     }    
