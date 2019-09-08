@@ -299,3 +299,127 @@ footer > div > div > p > a {
     background-color: cornflowerblue;
     
 }
+
+@media (min-width: 320px) and (max-width: 420px){
+    .descri{   
+        top: 20px;
+        left: 0;
+        padding: 3px;
+        font-size: 10px;
+        line-height: 15px;    
+    }
+    .title{
+        bottom: 80px;
+        left: 7px;
+        color: white;
+        font-size: 25px;
+    }
+    .tarjeta{
+        min-height: 200px;
+    }
+
+
+
+}
+@media (min-width: 320px) and (max-width: 420px){
+    .descri{   
+        top: 15px;
+        left: 0;
+        padding: 3px;
+        font-size: 10px;
+        line-height: 10px;    
+    }
+    .title{
+        bottom: 50px;
+        left: 7px;
+        color: white;
+        font-size: 25px;
+    }
+    .tarjeta{
+        min-height: 200px;
+    }
+
+}
+
+@media (min-width: 420px) and (max-width: 576px){
+    .descri{   
+        top: 20px;
+        left: 0;
+        padding: 3px;
+        font-size: 10px;
+        line-height: 15px;    
+    }
+    .title{
+        bottom: 70px;
+        left: 7px;
+        color: white;
+        font-size: 25px;
+    }
+    .tarjeta{
+        min-height: 270px;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+.descri{   
+    top: 16px;
+    left: 0;
+    padding: 3px;
+    font-size: 7px;
+    line-height: 10px;    
+}
+.title{
+    bottom: 25px;
+    left: 7px;
+    color: white;
+    font-size: 25px;
+}
+.tarjeta{
+    min-height: 150px;
+}
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+
+    .descri{   
+        top: 18px;
+        left: 0;
+        padding: 3px;
+        font-size: 10px;
+        line-height: 16px;    
+    }
+    .title{
+        bottom: 0px;
+        left: 7px;
+        color: white;
+        font-size: 30px;
+    }
+    .tarjeta{
+        min-height: 170px;
+    }
+ }
+    @media (min-width: 992px) and (max-width:1200px) {
+
+        .descri{   
+            top: 30px;
+            left: 0;
+            padding: 3px;
+            font-size: 10px;
+            line-height: 20px;    
+        }
+        .title{
+            bottom: 25px;
+            left: 7px;
+            color: white;
+            font-size: 30px;
+        }
+        .tarjeta{
+            min-height: 250px;
+        }
+
+     }
+
+
