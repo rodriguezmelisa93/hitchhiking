@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="bg-header">
         <ul class="nav nav-tabs d-flex justify-content-end border-bottom-0">  
                 <a href="index.html"><img class="logoviaje ulogo" src="./img/aeroplano.png" alt=""></a>            
             <li class="nav-item dropdown "> 
@@ -57,10 +57,6 @@
                     </div>
              </li>           
         </ul>
-    </header>
-
-
- <main>
         <nav class="d-flex justify-content-around justify-content-sm-start p-1">
             <div class="mx-2">
                 <a href="#" class="d-flex flex-column">
@@ -99,10 +95,10 @@
                 </a>    
             </div>
         </nav>
-        
+    </header>
+ <main> 
         <div class="container p-xs-0 p-md-3">
-
-            <section id="search" class="bg-light mt-4 d-flex flex-column p-3 rounded border border-secondary" >
+            <section id="search" class="bg-search mt-4 d-flex flex-column p-3 rounded border border-secondary" >
                 <h3 class="m-auto m-md-0">Busca tu próximo viaje</h3>
                 <p class="small m-auto m-md-0 pb-2">Lo que quieras, vayas donde vayas</p>
                 <div class="row flex-column flex-md-row">
@@ -139,10 +135,10 @@
                         </div>
                     </div>
                     <div class="col-12 d-flex justify-content-center d-md-none">
-                        <button class="btn btn-outline-primary w-75" type="submit">Buscar</button>
+                        <button class="btn btn-search w-75" type="submit">Buscar</button>
                     </div>
                     <div class="col-md-2 col-12 d-none d-md-block">
-                        <button class="btn btn-outline-primary w-100" type="submit">Buscar</button>
+                        <button class="btn btn-search w-100" type="submit">Buscar</button>
                     </div>
                            
                     
@@ -158,7 +154,6 @@
     
         <div class="container ">
             <div class="row content py-3">
-
                 <div class="col-sm-4">
                     <a href="./results.html"> 
                         <div class="card bg-dark text-white my-2 c-link">
@@ -241,7 +236,7 @@
         <!--Task7-->
         
         <div class="container">
-            <div class="row shadow m-4 p-2">
+            <div class="row shadow m-4 p-4 bg-subscribe">
                 <div class="col-md-3">
                     <img src="./img/aeroplano.png" alt="" class="rounded-circle img-fluid d-none d-sm-block">
                 </div>
@@ -254,7 +249,7 @@
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Introduce tu email">
                         </div>
                         <div class="col-md-4 text-center">
-                            <button type="button" class="btn btn-outline-primary mt-2 m-md-auto">¡Quiero Suscribirme!</button>
+                            <button type="button" class="btn btn-search  mt-2 m-md-auto">¡Quiero Suscribirme!</button>
                         </div>
                 </div>  
             </div>
@@ -584,7 +579,7 @@
                             <ul>
                             <li class="">
                                     <a href="">Argentina </a>
-                                        <img src="./img/b-arg.png" style="width: 5%;" class="d-inline" alt="Argentina">
+                                        <img src="./img/eeuu.png" style="width: 5%;" class="d-inline" alt="Argentina">
                                         
                             </li>
                             <li class="">
@@ -806,8 +801,7 @@
                 </div>
             </div>
         </section>
-    <footer>
-        
+    <footer>        
         <div class="container d-flex justify-content-around">
             <div class="d-flex flex-column pt-3">
                 <h6 class="font-weight-bold pb-2">Contact</h6>
@@ -842,8 +836,7 @@
             </div>
         </div>
         <div class="container text-dark p-1 text-center">Copyright © 1996–2019 Hitch-hiking.com™. Todos los derechos reservados.</div>
-    </footer>
-            
+    </footer>            
     
     <script type="text/javascript" src="./js/home.js"></script>
 </body>

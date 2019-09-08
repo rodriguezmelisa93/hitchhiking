@@ -9,9 +9,7 @@
     <script src="https://kit.fontawesome.com/cf0a234ea1.js"></script>
 </head>
 <body>
-
-    <header>
-
+    <header class="bg-header">
         <ul class="nav nav-tabs d-flex justify-content-end border-bottom-0">
                 <a href="index.html"><img class="logoviaje ulogo" src="./img/aeroplano.png" alt=""></a>
             <li class="nav-item dropdown"> 
@@ -31,9 +29,9 @@
                 </div>
             </li>
             <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"> <button class="iconic" type="button"  data-toggle="tooltip" data-placement="top" title="Elige tu moneda">
-                                <img class="iconos" src="./img/money-bag.png" alt="">
-                                </button> </a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"> <button class="iconic" type="button"  data-toggle="tooltip" data-placement="top" title="Elige tu moneda">
+                        <img class="iconos" src="./img/money-bag.png" alt="">
+                        </button> </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="#"> <img class="idiom" src="./img/peso.svg" alt=""> Peso Argentino</a>
                     <a class="dropdown-item" href="#"> <img class="idiom" src="./img/dolar.png" alt=""> Dolar</a>
@@ -55,10 +53,6 @@
                 </div>
             </li>
         </ul>
-    </header>
-
-    <main>
-
         <nav class="d-flex justify-content-around justify-content-sm-start p-1">
             <div class="mx-2">
                 <a href="#" class="d-flex flex-column">
@@ -97,6 +91,9 @@
                 </a>    
             </div>
         </nav>
+    </header>
+
+    <main>      
         <!--Task.21 Martín-->
         <div>
             <nav aria-label="breadcrumb">
@@ -112,7 +109,133 @@
         <section>
             <div class="container m-auto row">
                 <div class="col-xs-12 col-md-4">
+                    <section id="search" class="mt-4 d-flex flex-column p-3 rounded border border-secondary bg-search " >
+                            <h3 class="m-auto m-md-2">Buscar </h3>
+                            <div class="row p-3">
+                                    <div class="col-md-10 col-10 ">
+                                        <label class= "small"for="Destino">Destino</label>
+                                        <div class="input-group mb-2">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="fas fa-map-marker-alt "></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Elige tu destino">
+                                        </div>
+                                    </div>
+                            </div>
+                                <div class="row p-3">
+                                        <div class="col-md-10 col-10">
+                                            <label class="small mb-2">Fecha de entrada</label>
+                                            <div class="input-group mb-2">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                                                </div>
+                                                <input type="date" class="form-control" placeholder="Check-In" />
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="row p-3">
+                                        <div class="col-md-10 col-10 ">
+                                            <label class="small mb-2">Fecha de Salida</label>
+                                            <div class="input-group mb-2">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                                                </div>
+                                                <input type="date" class="form-control" placeholder="Check-out" />
+                                            </div>
+                                        </div>
+                                </div> 
+                                <div class="col-md-10 col-md-10">
+                                        <div class="input-group mb-6">
+                                            <div class="input-group-prepend border m-auto w-100 bg-white rounded-lg">
+                                                <span class="input-group-text"><i><i class="fas fa-user-alt"></i></i></span>
+                                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Huespedes
+                                                </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Adultos</a>
+                                                        <a class="dropdown-item" href="#">Niños</a>
+                                                        <a class="dropdown-item" href="#">Habitaciones</a>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                </div> 
+                                    <div class="col-md-10 col-md-10 p-3">
+                                            <div class="input-group mb-6">
+                                                <div class="input-group-prepend border m-auto w-100 bg-white rounded-lg">
+                                                    <span class="input-group-text"><i class="fas fa-door-open"></i></span>
+                                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Habitaciones
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">1 habitacion</a>
+                                                        <a class="dropdown-item" href="#">2 habitaciones</a>
+                                                        <a class="dropdown-item" href="#">3 Habitaciones</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+                                    <div class="form-group form-check mt-3 pl-3">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1"><a href="#"></a>
+                                        <label class="form-check-label" for="exampleCheck1">Viajo por Trabajo</label>
+                                    </div> 
+                                <div class="text-right m-1 ">
+                                    <a class="btn rounded btn-search" href="./detail.html" role="button">Buscar</a>
+                                </div>
+                                
+                        </section>
                     <!-- Buscador Comentario Mapa-->
+                    <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">Lo que más le gustó a los clientes</h5>                              
+                              <p class="card-text">“Check in fue muy fácil, ya que Maria nos estaba esperando. Ella nos explicó también que cosas podíamos hacer en la isla y los lugares donde ir..”</p>
+                             <h6>Dirceu</h6>
+                             <img src="./img/brasil.png" style="width: 8%;" alt="">  <span>Brasil</span>
+                             <tr></tr>
+                             
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <div class="card-body">                                                         
+                            <p class="card-text">“La vista es increíble, el cuarto muy cómodo y todos los días hacen la limpieza. La anfitriona muy amable y siempre dispuesta a ayudar”
+
+                            </p>
+                             <h6>F. Davayopulos</h6>
+                             <img src="./img/grecia.png" style="width: 8%;" alt="">  <span>Grecia</span>
+                             
+                            </div>
+                          </div>
+                          <tr></tr>
+                          <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                            <p class="card-text">“La limpieza del apartamento, la cama comodísima, las vistas a la playa y la amabilidad de la anfitriona son los fuertes a destacar para este alojamiento, en relación calidad/precio.”
+
+                                </p>
+                             <h6>Kevin</h6>
+                             <img src="./img/canada.png" style="width: 8%;" alt="">  <span>Canadá</span>
+                             
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                            <p class="card-text">“El desayuno fue excelente... opciones de comida caliente excelentes, huevos, bacon, etc. pero las opciones frías iban desde hermosas salados griegos, panes, mermeladas caseras, hasta dulces y dulces preciosos. Frutas frescas sin fin de opciones... tienes que ver para experimentar lo bueno que es...”</p>
+                             <h6>Cristine</h6>
+                             <img src="./img/eeuu.png" style="width: 8%;" alt="">  <span>EE.UU</span>
+                             
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <div class="card-body">                                                         
+                            <p class="card-text">“La ubicación es muy buena si quieres quedarte fuera de la zona coronada, sin embargo debes alquilar un automóvil o una moto para moverte por la isla (puedes alquilarlo en el hotel). El personal del hotel es súper agradable y servicial.”</p>
+                             <h6>Natasha</h6>
+                             <img src="./img/italia.png" style="width: 8%;" alt="">  <span>Italia</span>
+                             
+                            </div>
+                          </div>
+                   
+                   
+                   
+                    
                 </div>
                 <div class="col-xs-12 col-md-8">
                     <div class="row">
@@ -179,56 +302,54 @@
                             </br>
                                 A las parejas les encanta la ubicación — Le han puesto un <b>9,1</b> para viajes de dos personas.</p>
                         </div>
-                        
-                            <!-- Facilities-->
-                            <div class="col-xs-12 col-md-4">
-                                    <table class="table">
-                                            <thead>
-                                              <tr>
-                                                <th scope="col">Wifi</th>
-                                                <th scope="col"><img class="img-flag" src="./img/wifi.png" alt=""></th>
-                                              </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                  <th scope="col">Desayuno Buffet</th>
-                                                  <th scope="col"><img class="img-flag" src="./img/desayuno.png" alt=""></th>
-                                                 </tr>
-                                                 <tr>
-                                                        <th scope="row">Piscina</th>
-                                                        <td><img class="img-flag" src="./img/waterpolo.png" alt=""></td>
-                                                      </tr>
-                                                 <tr>
-                                                <th scope="row">Habitaciones Familiares</th>
-                                                <td><img class="img-flag" src="./img/family.png" alt=""></td>
-                                                 </tr>
-                                                 <tr>
-                                                <th scope="row">Habitacion Equipada</th>
-                                                <td><img class="img-flag" src="./img/aire-acondicionado.png" alt="">
-                                                    <img class="img-flag" src="./img/tv.png" alt=""></td>
-                                                </tr>
-                                                <tr>
-                                                <th scope="row">Esp.Libre de Humo</th>
-                                                <td><img class="img-flag" src="./img/no-smoking-sign.png" alt=""></td>
-                                                </tr>
-                                                <tr>
-                                                <th scope="row">Pet Friendly</th>
-                                                <td><img class="img-flag" src="./img/pet.png" alt=""></td>
-                                                 </tr>
-                                            </tbody>
-                                    </table>
-                             
-                             
-                                </div>
+                    
+                        <!-- Facilities-->
+                        <div class="col-xs-12 col-md-4">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                    <th scope="col">Wifi</th>
+                                    <th scope="col"><img class="img-flag" src="./img/wifi.png" alt=""></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="col">Desayuno Buffet</th>
+                                        <th scope="col"><img class="img-flag" src="./img/desayuno.png" alt=""></th>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Piscina</th>
+                                            <td><img class="img-flag" src="./img/waterpolo.png" alt=""></td>
+                                            </tr>
+                                        <tr>
+                                    <th scope="row">Habitaciones Familiares</th>
+                                    <td><img class="img-flag" src="./img/family.png" alt=""></td>
+                                        </tr>
+                                        <tr>
+                                    <th scope="row">Habitacion Equipada</th>
+                                    <td><img class="img-flag" src="./img/aire-acondicionado.png" alt="">
+                                        <img class="img-flag" src="./img/tv.png" alt=""></td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">Esp.Libre de Humo</th>
+                                    <td><img class="img-flag" src="./img/no-smoking-sign.png" alt=""></td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">Pet Friendly</th>
+                                    <td><img class="img-flag" src="./img/pet.png" alt=""></td>
+                                        </tr>
+                                </tbody>
+                            </table>                       
                         </div>
+                    </div>
                     
                     <!--Task-25 Martín-Disponibilidad-->
                     <div class="container-fluid p-0 p-md-3 my-4 my-md-2">
                         <section id="search" class="bg-light mt-4 d-flex flex-column p-3 rounded border border-secondary" >
                             <h3 class="m-auto m-md-0">Chequea por disponibilidad en otras fechas</h3>
-                            <p class="small m-auto m-md-2 pb-2">Mykonos Apart</p>
+                            <p class="small m-auto m-md-0 pb-2">Mykonos Apart</p>
                             <div class="row flex-column flex-md-row">
-                                <div class="col-12 col-md-4 mx-0">
+                                <div class="col-md-4 col-10">
                                     <div class="input-group mb-2">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
@@ -237,9 +358,9 @@
                                         <input type="date" class="form-control" placeholder="Check-out" />
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-7 px-0">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend border bg-white rounded-lg mb-2 mx-auto mx-md-1">
+                                <div class="col-md-6 col-10">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend border bg-white rounded-lg mb-2">
                                             <span class="input-group-text"><i class="fas fa-door-open"></i></span>
                                             <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Habitaciones
@@ -247,10 +368,10 @@
                                             <div class="dropdown-menu">
                                                 <a class="dropdown-item" href="#">1</a>
                                                 <a class="dropdown-item" href="#">2</a>
-                                                <a class="dropdown-item" href="#">3</a>
+                                                <a class="dropdown-item" href="#">3 o más</a>
                                             </div>
                                         </div>
-                                        <div class="input-group-prepend border bg-white rounded-lg mb-2 mx-auto mx-md-1">
+                                        <div class="input-group-prepend border bg-white rounded-lg mb-2">
                                             <span class="input-group-text"><i><i class="fas fa-user-alt"></i></i></span>
                                             <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Adultos
@@ -258,10 +379,8 @@
                                             <div class="dropdown-menu">
                                                 <a class="dropdown-item" href="#">1</a>
                                                 <a class="dropdown-item" href="#">2</a>
-                                                <a class="dropdown-item" href="#">3</a>
+                                                <a class="dropdown-item" href="#">3 o más</a>
                                             </div>
-                                        </div>
-                                        <div class="input-group-prepend border bg-white rounded-lg mb-2 mx-auto mx-md-1">
                                             <span class="input-group-text"><i class="fas fa-child"></i></span>
                                             <button type="button" class="btn dropdown-toggle pl-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Niños
@@ -269,31 +388,28 @@
                                             <div class="dropdown-menu">
                                                 <a class="dropdown-item" href="#">1</a>
                                                 <a class="dropdown-item" href="#">2</a>
-                                                <a class="dropdown-item" href="#">3</a>
+                                                <a class="dropdown-item" href="#">3 o más</a>
                                             </div>
                                         </div>
                                         
                                     </div>
                                 </div>
+                                <div class="col-md-2 col-12 d-flex justify-content-center d-md-none">
+                                    <button class="btn btn-search w-75" type="submit">Buscar</button>
+                                </div>
+                                <div class="col-md-2 col-12 d-none d-md-block">
+                                    <button class="btn btn-search w-100" type="submit">Buscar</button>
+                                </div>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <div class="form-group form-check mt-3 pl-3 mr-auto">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1"><a href="#"></a>
-                                    <label class="form-check-label" for="exampleCheck1">Viajo por Trabajo</label>
-                                </div>
-                                <div class="d-flex justify-content-center d-md-none">
-                                    <button class="btn btn-outline-primary w-75" type="submit">Buscar</button>
-                                </div>
-                                <div class="d-none d-md-block">
-                                    <button class="btn btn-outline-primary mt-4" type="submit">Buscar</button>
-                                </div>
+                            <div class="form-group form-check mt-3 pl-3">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1"><a href="#"></a>
+                                <label class="form-check-label" for="exampleCheck1">Viajo por Trabajo</label>
                             </div>           
                         </section>
-                    </div>
-                           
+                    </div>                           
                     <!-- Disponibilidad mel -->
                     
-                    <table class="table table-bordered table-dark">
+                    <table class="table table-bordered bg-table">
                         <thead>
                             <tr>
                             <th scope="col"></th>
@@ -309,7 +425,7 @@
                             <td> Habitacion Doble Superior
                                 <p>2 camas individuales <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""></p>
                             </td>
-                            <td><button type="button" class="btn btn-secondary">Mostrar Precio</button></td>
+                            <td><button type="button" class="btn btn-search">Mostrar Precio</button></td>
                             </tr>
                             <tr>
                             <th scope="row"></th>
@@ -317,7 +433,7 @@
                             <td>Habitacion Cuadruple
                                 <p>2 camas individuales  y 1 cama doble <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed.png" alt=""> </p>
                             </td>
-                            <td><button type="button" class="btn btn-secondary">Mostrar Precio</button></td>
+                            <td><button type="button" class="btn btn-search">Mostrar Precio</button></td>
                             </tr>
                             <tr>
                             <th scope="row"></th>
@@ -326,7 +442,7 @@
                                 <p>3 camas individuales <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""> /
                                 <br> 1 cama individual <img class="img-flag" src="./img/bed1.png" alt="">  y 1 cama doble <img class="img-flag" src="./img/bed.png" alt=""> </p>
                             </td>
-                            <td><button type="button" class="btn btn-secondary">Mostrar Precio</button></td>
+                            <td><button type="button" class="btn btn-search">Mostrar Precio</button></td>
                             </tr>
                             <tr>
                                 <th scope="row"></th>
@@ -335,13 +451,13 @@
                                     <p>3 camas individuales <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt="">
                                 <br> y 1 cama doble <img class="img-flag" src="./img/bed.png" alt="">   </p>
                                 </td>
-                                <td><button type="button" class="btn btn-secondary">Mostrar Precio</button></td>
+                                <td><button type="button" class="btn btn-search">Mostrar Precio</button></td>
                                 </tr>
                         </tbody>
                     </table>
 
                     <!--task 27 Martín-->
-                    <div class="questions rounded-lg bg-info text-white my-2">
+                    <div class="questions rounded-lg text-white my-2 bg-header">
                         <h3 class="text-center pt-2"><a class="#" href="#">Preguntas frecuentes</a></h3>
                         <div class="d-flex flex-column flex-md-row">
                             <div class="ask p-1 border">
