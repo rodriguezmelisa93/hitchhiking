@@ -5,6 +5,11 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
+.ulogo{
+    position: absolute;
+    top: 2px;
+    left: 10px;
+}
 .bordeado {
     border-radius: 20px;
 }
