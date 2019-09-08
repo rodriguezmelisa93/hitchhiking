@@ -101,7 +101,7 @@
         <div>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb rounded-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Grecia</a></li>
                     <li class="breadcrumb-item"><a href="#">Mykonos</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Apart</li>
@@ -239,8 +239,8 @@
                                 </div>
                                 <div class="col-md-6 col-10">
                                     <div class="input-group mb-2">
-                                        <div class="input-group-prepend border m-auto bg-white rounded-lg">
-                                            <span class="input-group-text"><i><i class="fas fa-user-alt"></i></i></span>
+                                        <div class="input-group-prepend border bg-white rounded-lg mb-2">
+                                            <span class="input-group-text"><i class="fas fa-door-open"></i></span>
                                             <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Habitaciones
                                             </button>
@@ -249,6 +249,9 @@
                                                 <a class="dropdown-item" href="#">2</a>
                                                 <a class="dropdown-item" href="#">3 o más</a>
                                             </div>
+                                        </div>
+                                        <div class="input-group-prepend border bg-white rounded-lg mb-2">
+                                            <span class="input-group-text"><i><i class="fas fa-user-alt"></i></i></span>
                                             <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Adultos
                                             </button>
@@ -257,6 +260,7 @@
                                                 <a class="dropdown-item" href="#">2</a>
                                                 <a class="dropdown-item" href="#">3 o más</a>
                                             </div>
+                                            <span class="input-group-text"><i class="fas fa-child"></i></span>
                                             <button type="button" class="btn dropdown-toggle pl-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Niños
                                             </button>
@@ -270,66 +274,67 @@
                                     </div>
                                 </div>
                                 <div class="col-md-2 col-12 d-flex justify-content-center d-md-none">
-                                    <button class="btn btn-outline-primary w-75" type="submit">Chequear</button>
+                                    <button class="btn btn-outline-primary w-75" type="submit">Buscar</button>
                                 </div>
                                 <div class="col-md-2 col-12 d-none d-md-block">
-                                    <button class="btn btn-outline-primary w-100" type="submit">Chequear</button>
+                                    <button class="btn btn-outline-primary w-100" type="submit">Buscar</button>
                                 </div>
                             </div>
                             <div class="form-group form-check mt-3 pl-3">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1"><a href="#"></a>
                                 <label class="form-check-label" for="exampleCheck1">Viajo por Trabajo</label>
                             </div>           
-                        
+                        </section>
                     </div>
                            
                     <!-- Disponibilidad mel -->
+                    
                     <table class="table table-bordered table-dark">
-                            <thead>
-                              <tr>
-                                <th scope="col"></th>
-                                <th scope="col">Capacidad</th>
-                                <th scope="col">Tipo de Habitacion</th>
-                                <th scope="col">Precio</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
+                        <thead>
+                            <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Capacidad</th>
+                            <th scope="col">Tipo de Habitacion</th>
+                            <th scope="col">Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row"></th>
+                            <td><img class="img-flag" src="./img/2user.png" alt=""> </td>
+                            <td> Habitacion Doble Superior
+                                <p>2 camas individuales <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""></p>
+                            </td>
+                            <td><button type="button" class="btn btn-secondary">Mostrar Precio</button></td>
+                            </tr>
+                            <tr>
+                            <th scope="row"></th>
+                            <td> <img class="img-flag" src="./img/2user.png" alt=""> <img class="img-flag" src="./img/2user.png" alt=""> </td>
+                            <td>Habitacion Cuadruple
+                                <p>2 camas individuales  y 1 cama doble <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed.png" alt=""> </p>
+                            </td>
+                            <td><button type="button" class="btn btn-secondary">Mostrar Precio</button></td>
+                            </tr>
+                            <tr>
+                            <th scope="row"></th>
+                            <td><img class="img-flag" src="./img/3user.png" alt=""></td>
+                            <td>Habitacion Triple Estandar
+                                <p>3 camas individuales <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""> /
+                                <br> 1 cama individual <img class="img-flag" src="./img/bed1.png" alt="">  y 1 cama doble <img class="img-flag" src="./img/bed.png" alt=""> </p>
+                            </td>
+                            <td><button type="button" class="btn btn-secondary">Mostrar Precio</button></td>
+                            </tr>
+                            <tr>
                                 <th scope="row"></th>
-                                <td><img class="img-flag" src="./img/2user.png" alt=""> </td>
-                                <td> Habitacion Doble Superior
-                                    <p>2 camas individuales <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""></p>
+                                <td><img class="img-flag" src="./img/3user.png" alt=""> <img class="img-flag" src="./img/2user.png" alt=""> </td>
+                                <td>Habitacion Quintuple
+                                    <p>3 camas individuales <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt="">
+                                <br> y 1 cama doble <img class="img-flag" src="./img/bed.png" alt="">   </p>
                                 </td>
                                 <td><button type="button" class="btn btn-secondary">Mostrar Precio</button></td>
-                              </tr>
-                              <tr>
-                                <th scope="row"></th>
-                                <td> <img class="img-flag" src="./img/2user.png" alt=""> <img class="img-flag" src="./img/2user.png" alt=""> </td>
-                                <td>Habitacion Cuadruple
-                                    <p>2 camas individuales  y 1 cama doble <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed.png" alt=""> </p>
-                                </td>
-                                <td><button type="button" class="btn btn-secondary">Mostrar Precio</button></td>
-                              </tr>
-                              <tr>
-                                <th scope="row"></th>
-                                <td><img class="img-flag" src="./img/3user.png" alt=""></td>
-                                <td>Habitacion Triple Estandar
-                                    <p>3 camas individuales <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""> /
-                                    <br> 1 cama individual <img class="img-flag" src="./img/bed1.png" alt="">  y 1 cama doble <img class="img-flag" src="./img/bed.png" alt=""> </p>
-                                </td>
-                                <td><button type="button" class="btn btn-secondary">Mostrar Precio</button></td>
-                              </tr>
-                              <tr>
-                                    <th scope="row"></th>
-                                    <td><img class="img-flag" src="./img/3user.png" alt=""> <img class="img-flag" src="./img/2user.png" alt=""> </td>
-                                    <td>Habitacion Quintuple
-                                        <p>3 camas individuales <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt=""> <img class="img-flag" src="./img/bed1.png" alt="">
-                                    <br> y 1 cama doble <img class="img-flag" src="./img/bed.png" alt="">   </p>
-                                    </td>
-                                    <td><button type="button" class="btn btn-secondary">Mostrar Precio</button></td>
-                                  </tr>
-                            </tbody>
-                     </table>
+                                </tr>
+                        </tbody>
+                    </table>
 
                     <!--task 27 Martín-->
                     <div class="questions rounded-lg bg-info text-white my-2">
